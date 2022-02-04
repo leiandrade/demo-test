@@ -5,7 +5,7 @@ public class TestingDemoTest {
     //need to think about testing codes and commands
     @Test
     public void addition() {
-        assertEquals(2, TestingDemo.add(1, 3)); // fails at first!
+        assertEquals(2, TestingDemo.add(1, 1)); // fails at first!
     }
     
 }
