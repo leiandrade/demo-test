@@ -4,8 +4,12 @@ import org.junit.*;
 public class TestingDemoTest {
     //need to think about testing codes and commands
     @Test
-    public void addition() {
-        assertEquals(2, TestingDemo.add(1, 1)); // fails at first!
+    public void divide_whenDenominatorIsZero_shouldThrow() {
+        assertThrows(ArithmeticException.class, () -> divide(1, 1)); // fails at first!
+    }
+
+    private Object divide(int i, int j) {
+        return null;
     }
     
 }
